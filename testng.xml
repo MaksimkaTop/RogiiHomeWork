@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Base Suite" parallel="tests" thread-count="3">
+    <test name="User" >
+        <classes>
+            <class name="api.UserTest"/>
+        </classes>
+    </test>
+
+    <test name="Resource" >
+        <classes>
+            <class name="api.ResourceTest"/>
+        </classes>
+    </test>
+
+    <test name="Register" >
+        <classes>
+            <class name="api.RegisterTest"/>
+        </classes>
+    </test>
+</suite>
